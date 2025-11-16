@@ -1,10 +1,12 @@
-import Navbar from "./_components/nabar";
+import Navbar from "./_components/navbar";
+import Hero from "./hero/page";
 
 const Home = () => {
+
   return ( 
-    <div className="flex-center h-screen">
-      <h1 className="text-2xl text-green-950 font-extrabold">GSAP APP</h1>
+    <div className="h-screen">
       <Navbar/>
+      <Hero />
     </div>
   );
 }
