@@ -1,4 +1,5 @@
 import Navbar from "./_components/navbar";
+import About from "./about/page";
 import Cocktails from "./cocktails/page";
 import Hero from "./hero/page";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar/>
       <Hero />
       <Cocktails />
+      <About />
     </div>
   );
 }

@@ -222,7 +222,7 @@ body {
                 @apply rounded-3xl overflow-hidden h-72 relative;
             }
 
-            img {
+            .img {
                 @apply object-cover w-full h-full;
             }
         }
@@ -234,7 +234,7 @@ body {
                 @apply rounded-3xl overflow-hidden h-72 relative;
             }
 
-            img {
+            .img {
                 @apply object-cover w-full h-full;
             }
         }
@@ -312,7 +312,7 @@ body {
         .cocktail {
             @apply flex-center mt-10;
 
-            img {
+            .img {
                 @apply object-contain h-[60vh];
             }
         }
