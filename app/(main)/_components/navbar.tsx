@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="flex">
-                <a href="#" className="flex items-center justify-center gap-2">
+                <a href={'/'} className="flex items-center justify-center gap-2">
                     <Image alt="logo" src={'/images/logo.png'} width={30} height={30} />
                     <p>Lush Cocktails</p>
                 </a>

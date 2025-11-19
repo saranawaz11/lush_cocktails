@@ -20,7 +20,7 @@ const Cocktails = () => {
             x: 100, y: 100
         })
     })
-    return ( 
+    return (
         <section className="noisy" id="cocktails">
             <Image src={'/images/cocktail-left-leaf.png'} alt="left-leaf" width={500} height={500} id="c-left-leaf" className="img" />
             <Image src={'/images/cocktail-right-leaf.png'} alt="right-leaf" width={500} height={500} id="c-right-leaf" className="img" />
@@ -57,7 +57,7 @@ const Cocktails = () => {
                 </div>
             </div>
         </section>
-     );
+    );
 }
- 
+
 export default Cocktails;

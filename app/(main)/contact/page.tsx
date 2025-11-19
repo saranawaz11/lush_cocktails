@@ -39,12 +39,12 @@ const Contact = () => {
                 duration: 1,
                 ease: 'power1.inOut'
             }, '<')
-            
+
     })
-    return ( 
+    return (
         <footer id="contact">
-            <Image src={'/images/footer-right-leaf.png'} alt="leaf-right" id="f-right-leaf" width={400} height={400}/>
-            <Image src={'/images/footer-left-leaf.png'} alt="leaf-left" id="f-left-leaf" width={400} height={400}/>
+            <Image src={'/images/footer-right-leaf.png'} alt="leaf-right" id="f-right-leaf" width={400} height={400} />
+            <Image src={'/images/footer-left-leaf.png'} alt="leaf-left" id="f-left-leaf" width={400} height={400} />
 
             <div className="content">
                 <h2>Where to Find Us</h2>
@@ -71,14 +71,14 @@ const Contact = () => {
                     <div className="flex-center gap-5">
                         {socials.map((social) => (
                             <a href={social.url} key={social.name} target="_blank" rel="noopener noreferrer" aria-label={social.name}>
-                                <Image src={social.icon} alt="social-icon" width={20} height={20}/>
+                                <Image src={social.icon} alt="social-icon" width={20} height={20} />
                             </a>
                         ))}
                     </div>
                 </div>
             </div>
         </footer>
-     );
+    );
 }
- 
+
 export default Contact;
